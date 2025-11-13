@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "jay-patient-example",
+  "name": [
+    {
+      "use": "official",
+      "family": "Styles",
+      "given": ["Furious"]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1990-01-01",
+  "address": [
+    {
+      "use": "home",
+      "city": "Brooklyn",
+      "state": "NY",
+      "postalCode": "11238",
+      "country": "USA"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "email",
+      "value": "jayamb219@gmail.com"
+    }
+  ]
+}

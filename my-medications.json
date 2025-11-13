@@ -1,0 +1,43 @@
+{
+  "resourceType": "MedicationStatement",
+  "id": "example-medication-1",
+  "status": "active",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "197361",
+        "display": "Lisinopril 10 MG Oral Tablet"
+      }
+    ],
+    "text": "Lisinopril 10mg"
+  },
+  "subject": {
+    "reference": "Patient/jay-patient-example",
+    "display": "Furious Styles"
+  },
+  "effectivePeriod": {
+    "start": "2023-01-15"
+  },
+  "dosage": [
+    {
+      "text": "Take 1 tablet by mouth daily",
+      "timing": {
+        "repeat": {
+          "frequency": 1,
+          "period": 1,
+          "periodUnit": "d"
+        }
+      },
+      "route": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "26643006",
+            "display": "Oral route"
+          }
+        ]
+      }
+    }
+  ]
+}
